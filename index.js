@@ -8,8 +8,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const randomButton = document.querySelector('#random')
     let likesNum = 0
 
-
-
     randomButton.addEventListener('click', () => {
         fetch('https://dog.ceo/api/breeds/image/random')
         .then(resp => resp.json())
@@ -42,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
                 setTimeout(() => {
                     e.target.src = data.message;
-                  }, 400)
+                  }, 1000)
             })
         })
     }
@@ -146,14 +144,4 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
 })
-
-
-
-
-
-
-
-
-
-
 
