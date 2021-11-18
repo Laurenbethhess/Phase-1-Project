@@ -1,0 +1,68 @@
+.title {
+  font-family: Papyrus;
+  font-size: 50px;
+}
+
+.likes {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.image-size {
+    height: 15rem;
+    width: auto;
+}
+
+.heart {
+  color: red;
+  cursor: pointer;
+}
+
+.card {
+  border-radius: 5pt;
+  text-align: center;
+  border: solid;
+  border-width: .1rem;
+  border-color: black;
+  padding: 1rem;
+  width: auto;
+  height: auto;
+  display: inline-grid;
+  margin: 1rem 2rem;
+  box-shadow: 6px 8px black;
+  background-color: yellow
+}
+
+.comment-button {
+  background-color: palegreen;
+  border-radius: 10pt;
+  border: solid;
+  border-width: .1rem;
+  border-color: black;
+  font-weight: 600;
+  color: black;
+  cursor: pointer;
+  transition: color 300ms;
+  font-family: monospace;
+}
+
+.delete-button {
+  margin: auto;
+  border: solid;
+  border-style: groove;
+  border-width: .1rem;
+  width: 75px;
+  border-color: black;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: grey;
+  
+}
+
+.body {
+  background-color: paleturquoise;
+}
+
+
